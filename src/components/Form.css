@@ -1,0 +1,72 @@
+.box {
+    margin: auto;
+    margin-top: 15px;
+    display: block;
+    text-align: center;
+    width: 70%;
+}
+
+input {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+input.search-box-input {
+    border-style: 2px solid black;
+}
+
+input[type="text"]{
+    background-color: #fff;
+    width: 340px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+}
+
+button{
+    position: relative;
+    border-radius: 0 25px 25px 0;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #ffc107;
+    color: #fff;
+    left: -2px;
+    font-size: 20px;
+}
+
+button:hover {
+    background: #ff5722;
+}
+
+@media (max-width:445px){
+    form.example {
+        width: 250px;
+    }
+}
+
+@media (max-width:1016px) {
+    input[type="text"] {
+        width: 130px;
+        height: 40px;
+        font-size: 17px;
+    }
+    button {
+        width: 80px;
+        height: 40px;
+        font-size: 17px;
+    }
+}
+
+@media (min-width:1200px) {
+ .example {
+     margin-left: 50px;
+ }
+}

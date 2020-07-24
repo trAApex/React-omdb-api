@@ -1,0 +1,88 @@
+table {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+}
+
+
+.first{
+    padding: 10px;
+    background-color: #f6f6f5;
+}
+
+.poster img{
+    height: 210px;
+    width: 140px;
+    padding: 10px;
+    margin: 5px 0 5px 0;
+}
+
+.second{
+    font-size: 11px;
+    margin: auto;
+    display: block;
+}
+
+.title{
+    font-size: 13px;
+    margin: 15px 0 20px 5px;
+}
+
+.title a{
+    text-decoration: none;
+    color: rgb(44, 70, 218);
+}
+
+.released {
+    margin: 5px;
+}
+
+.released_date{
+    font-weight: bold;
+}
+
+.released_time{
+    padding-left: 10px;
+    color: rgb(136, 81, 81);
+}
+
+.plot {
+    margin: 5px;
+}
+
+.author_box{
+    margin: 5px;
+}
+
+.author{
+    font-weight: bold;
+}
+
+.author_name{
+    padding-left: 10px;
+    color: rgb(44, 70, 218);
+}
+
+.actors_box{
+    margin: 5px;
+}
+
+.actors{
+    font-weight: bold;
+}
+
+.actors_name{
+    padding-left: 10px;
+    color: rgb(44, 70, 218);
+}
+
+@media (min-width:1017px) {
+    .second {
+        width: 450px;
+    }
+}
+
+@media (min-width:1200px) {
+    .second {
+        width: 600px;
+    }
+}
